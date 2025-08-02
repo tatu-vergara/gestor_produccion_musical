@@ -15,25 +15,25 @@ Sirve para tener un título con el que asociar el proyecto (clave para guardar i
 En base a esto, cada uno de estos menús tiene una subdivisión de tareas iguales, que son las siguientes:
 
 
-1. Agregar tarea nueva al checklist
-Permite sumar tareas específicas que no estén en la lista base.
+1. Agregar canción
+Añade una canción al sistema
 
-2. Ver tareas actuales del checklist
-Muestra todas las tareas que hay que realizar, en orden.
+2. Agregar tarea a canción
+permite agregar tareas, con tareas por defectos disponible
 
-3. Marcar tarea como completada
-Permite indicar avance. Podrías usar una marca tipo [X] o cambiar estado a 'completada'.
+3. Ver checklist de una canción
+Permite ver las tareas pendientes.
 
-4. Eliminar una tarea del checklist
-Por si hay pasos innecesarios o errores al escribir.
+4. Marcar tarea como completada.
+Marca una tarea como completada.
 
-5. Editar el nombre o descripción de una tarea existente
-Ideal si quieres refinar qué dice cada tarea.
+5. Editar tarea
+Permite editar una tarea, como cambiar el nombre o cambiar su status (por si quieres retroraer del estado "completado", si bien acá también se puede completar una tarea, la opción anterior es más expedita).
 
-6. Reordenar tareas
-A veces cambiamos el orden lógico del flujo de trabajo. Puedes dejarlo como un “modo experto”.
+6. Ver canciones existentes
+Permite ver las canciones insertadas dentro del sistema.
 
-7. Guardar checklist en archivo externo (opcional avanzado)
-Puede ser útil para guardar el estado del proyecto como un .txt o .json.
+7. Salir.
+Nos salimos del sistema.
 
-8. Salir del programa
+Este código idealmente debería poder guardar todo en algún texto, usando json o txt, pero por ahora quedará pendiente.
